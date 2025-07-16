@@ -1,0 +1,115 @@
+\documentclass{scrreprt}
+
+\usepackage{graphicx,booktabs}
+
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \bfseries
+
+  \includegraphics{../../assets/images/logo-upsa.png}
+
+  \vfill
+  FAI:\@ Facultad de Ingeniería
+
+  Ingeniería de Sistemas
+  \vfill
+  Modalidad de Graduación
+
+  Proyecto de Grado
+  \vfill
+  Nombre del Trabajo Final de Grado
+  \vfill
+  Autor
+  \vfill
+  Tutor
+
+  Santa Cruz de la Sierra, Bolivia
+
+  2025
+\end{titlepage}
+
+\mbox{}
+\newpage
+
+\begin{titlepage}
+  \centering
+  \bfseries
+
+  \includegraphics{../../assets/images/logo-upsa.png}
+
+  \vfill
+
+  FAI:\@ Facultad de Ingeniería
+
+  Ingeniería de Sistemas
+
+  \vfill
+
+  Modalidad de Graduación
+
+  Proyecto de Grado
+
+  \vfill
+
+  Nombre del Trabajo Final de Grado
+
+  \vfill
+
+  Proyecto de Grado para optar por el grado de Licenciatura en «Ingeniería de Sistemas»
+
+  \vfill
+
+  Autor
+
+  Reg.: YEAR-XXXXXX
+
+  \vfill
+
+  Tutor
+
+  Santa Cruz de la Sierra, Bolivia
+
+  2025
+\end{titlepage}
+
+\section*{Abstracto}
+\begin{tabular}{ll}
+  \toprule
+  \textbf{Título} & Nombre del Trabajo Final de Grado \\
+  \midrule
+  \textbf{Autor} & Autor \\
+  \bottomrule
+\end{tabular}
+
+\section*{Contenido}
+\renewcommand{\contentsname}{}
+\setcounter{tocdepth}{0}
+% Prevent page break before table of contents
+\KOMAoptions{toc=nobib}
+\makeatletter
+\renewcommand*{\tableofcontents}{%
+  \@starttoc{toc}%
+}
+\makeatother
+
+\tableofcontents
+
+\par
+
+\begin{tabular}{ll}
+  \toprule
+  \textbf{Título} & Nombre del Trabajo Final de Grado \\
+  \midrule
+  \textbf{Autor} & Autor \\
+  \bottomrule
+\end{tabular}
+
+\chapter{Introducción}
+\chapter{Negocio}
+\chapter{Marco Teórico}
+
+\end{document}
